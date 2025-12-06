@@ -116,24 +116,24 @@ App Sections:
 
 
 /SmartGreenhouse
+ │
+ ├── App.xaml / App.xaml.cs              # Application root
+ ├── MainPage.xaml / MainPage.xaml.cs    # Dashboard UI
+ │
+ ├── Pages/                              # Login page, Controls page, etc.
+ │   ├── LoginPage.xaml
+ │   ├── DashboardPage.xaml
+ │   └── ControlsPage.xaml
+ │
+ ├── Models/                             # Sensor + actuator model classes
+ │   ├── SensorData.cs
+ │   └── ActuatorState.cs
 │
-├── App.xaml / App.xaml.cs              # Application root
-├── MainPage.xaml / MainPage.xaml.cs    # Dashboard UI
-│
-├── Pages/                              # Login page, Controls page, etc.
-│   ├── LoginPage.xaml
-│   ├── DashboardPage.xaml
-│   └── ControlsPage.xaml
-│
-├── Models/                             # Sensor + actuator model classes
-│   ├── SensorData.cs
-│   └── ActuatorState.cs
-│
-├── Services/                            # Timer simulation + SecureStorage
-│   ├── SensorSimulationService.cs
-│   └── AuthService.cs
-│
-└── Resources/                           # Fonts, images, raw assets
+ ├── Services/                            # Timer simulation + SecureStorage
+ │   ├── SensorSimulationService.cs
+ │   └── AuthService.cs
+ │
+ └── Resources/                           # Fonts, images, raw assets
 
 
 
