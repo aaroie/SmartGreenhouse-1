@@ -114,25 +114,28 @@ App Sections:
 
 * Project Structure (High-Level)
 
+
 /SmartGreenhouse
 │
-├── App.xaml / App.xaml.cs             # Application root
-├── MainPage.xaml / MainPage.xaml.cs   # Dashboard UI
+├── App.xaml / App.xaml.cs              # Application root
+├── MainPage.xaml / MainPage.xaml.cs    # Dashboard UI
 │
-├── Pages/                             # Login page, Controls page, etc.
+├── Pages/                              # Login page, Controls page, etc.
 │   ├── LoginPage.xaml
 │   ├── DashboardPage.xaml
 │   └── ControlsPage.xaml
 │
-├── Models/                            # Sensor + actuator model classes
+├── Models/                             # Sensor + actuator model classes
 │   ├── SensorData.cs
 │   └── ActuatorState.cs
 │
-├── Services/                          # Timer simulation + SecureStorage
+├── Services/                            # Timer simulation + SecureStorage
 │   ├── SensorSimulationService.cs
 │   └── AuthService.cs
 │
-└── Resources/                         # Fonts, images, raw assets
+└── Resources/                           # Fonts, images, raw assets
+
+
 
  * Authors
 Eunice Shaji - A00322510
