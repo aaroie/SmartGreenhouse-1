@@ -65,7 +65,7 @@ You must install:
 Clone the repository:
 
 `bash
-(https://github.com/Aaroies/SmartGreenhouse.git)
+(https://github.com/aaroie/SmartGreenhouse-1.git))
 
 ----
 
